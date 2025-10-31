@@ -1,5 +1,4 @@
-<!-- [Прочитать эту страницу по-русски](https://github.com/vazhka-dolya/Shapeshift/blob/main/README.ru.md) | **Read this page in English** -->
-<!-- Will add the thing above when I translate this to Russian -->
+[Прочитать эту страницу по-русски](https://github.com/vazhka-dolya/Shapeshift/blob/main/README.ru.md) | **Read this page in English**
 
 # Shapeshift
 **Shapeshift** is a very experimental [*Mario 64 Movie Maker 3*](https://github.com/projectcomet64/M64MM) add-on for changing Mario's model in real time.
@@ -16,10 +15,10 @@ It's very much recommended that you use an extended ROM with this add-on. You ca
 Some tips/notes:
 - Since the models get loaded at a different address, using something like [*katarakta PT4*](https://github.com/vazhka-dolya/katarakta/releases/tag/vpt4) or the upcoming *kataraktaCS* add-on won't work by default with *Shapeshift*. You can, however, change a model's textures before extracting it and the model will still have those textures when it gets loaded.
 - You can use a ROM with a *Fast64* model and still use *Shapeshift* to replace this model with something else, allowing you to use a *Fast64* model together with other models in some cases.
-- After loading a model on top of Mario, you can use the *Load Back Mario* button to load back Mario's model. If you're loading a model on top of a *Fast64* model, then use the *Load Back F64 Model* button.
+- After loading a model on top of Mario, you can use the **Load Back Mario** button to load back Mario's model. If you're loading a model on top of a *Fast64* model, then use the **Load Back F64 Model** button.
 - If you're extracting Mario's model, then you have to use an extended ROM for that.
 - Going to another stage will reset the model back to what it was originally.
-- - There is a way to prevent this from happening, which might get added in a future update.
+  - There is a way to prevent this from happening, which might get added in a future update.
 
 # Installing and using
 1. Make sure you have the [latest version](https://github.com/projectcomet64/M64MM/releases/latest) of *M64MM3* installed.
@@ -43,5 +42,5 @@ Some tips/notes:
 - Kaze Emanuar & Net64 — original code for extracting models (or at least I think it was them who made it).
 - Warioplier — shared this code and roughly explained how to use it.
 
-[^1]: That means *all* the contents, including the `deps` folder. If it crashes when opening the *About* window, make sure that you have `HtmlRenderer.dll` and `HtmlRenderer.WinForms.dll` in *M64MM*'s `deps` folder.
+[^1]: That means *all* the contents, including the `deps` folder. If it crashes when opening the **About** window, make sure that you have `HtmlRenderer.dll` and `HtmlRenderer.WinForms.dll` in *M64MM*'s `deps` folder.
 [^2]: That's the same folder where `M64MM.exe` is located.

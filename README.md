@@ -1,7 +1,12 @@
-[Прочитать эту страницу по-русски](https://github.com/vazhka-dolya/Shapeshift/blob/main/README.ru.md) | **Read this page in English**
+<!-- [Прочитать эту страницу по-русски](https://github.com/vazhka-dolya/Shapeshift/blob/main/README.ru.md) | **Read this page in English** -->
+<!-- Will add the thing above when I translate this to Russian -->
 
 # Shapeshift
 **Shapeshift** is a very experimental [*Mario 64 Movie Maker 3*](https://github.com/projectcomet64/M64MM) add-on for changing Mario's model in real time.
+
+<p align="center">
+  <img src="https://github.com/vazhka-dolya/Shapeshift/blob/main/GitHubImg/shapeshift_demo1.gif"/>
+</p>
 
 # Usage
 In its current state, the add-on only works with models that are stored at address `F0860`, which are usually older models, such as [Enkal's Peach model](https://www.youtube.com/watch?v=itgn6dsmcNA). This means that [*Fast64*](https://github.com/Fast-64/fast64) models are, unfortunately, currently not supported.
@@ -13,7 +18,7 @@ Some tips/notes:
 - You can use a ROM with a *Fast64* model and still use *Shapeshift* to replace this model with something else, allowing you to use a *Fast64* model together with other models in some cases.
 - After loading a model on top of Mario, you can use the *Load Back Mario* button to load back Mario's model. If you're loading a model on top of a *Fast64* model, then use the *Load Back F64 Model* button.
 - If you're extracting Mario's model, then you have to use an extended ROM for that.
-- Going to another stage will reset the model back to what it originally was.
+- Going to another stage will reset the model back to what it was originally.
 - - There is a way to prevent this from happening, which might get added in a future update.
 
 # Installing and using
